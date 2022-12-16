@@ -8,7 +8,10 @@ I used the skills learned in week 2 of class, covering advanced CSS.
 
 ## Installation
 
-N/A
+![image](https://user-images.githubusercontent.com/117420244/208027485-527ca74a-fdf5-4b4c-944e-cd69c710b003.png)
+
+Link to deployed webpage:
+https://jessiemullins.github.io/module-02-challenge/
 
 ## Usage
 
