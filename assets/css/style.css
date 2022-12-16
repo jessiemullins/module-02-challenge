@@ -1,50 +1,96 @@
 *{
     box-sizing: border-box;
 }
-main {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: #ffbc94;
-    color:#000000
-}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #644B6A;
 }
 
 header {
     padding: 20px;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    flex-direction: column;
     font-family:Arial, Helvetica, sans-serif;
-    margin:auto;
-    background-color: #ffbc94;
+    background-color: #2A60A0;
     color: #000000;
+    border: 2px solid #bfbfbf;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
 
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    display: flex;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-nav ul {
-    list-style-type: none;
+    color:#000000;
+    font-size: 40px;
 }
 
 main {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 2%;
+    margin-top:auto%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #CD9A7C;
+    color: #000000;
 }
 
-footer {
-    padding: 20px;
+.flex-item {
+    border: 5px;
+    min-height: fit-content;
+    min-width:fit-content;
+    display:flex;
+}
+
+.flex-item:first-child {
+    display:flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+    min-width: 100%;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.prework-study-guide {
+    display:flex;
+    flex-wrap: wrap;
+    background-image: url("../img/preworkstudyguide.png");
+    background-repeat: no-repeat;
+  }
+  
+.module-1-challenge {
+    display:flex;
+    flex-wrap: wrap;
+    background-image: url("../img/module1challenge.png");
+    min-width: 100px;
+    min-height: 100px;
+    background-repeat: no-repeat;
+  }
+
+
+
+.footer {
+    display: flex;
     clear: both;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@media screen and (max-width: 720px) {
+    main, 
+    nav {
+        flex-direction: column;
+    }
+    
 }
