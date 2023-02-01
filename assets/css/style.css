@@ -74,6 +74,15 @@ main {
     background-repeat: no-repeat;
   }
 
+.project-1 {
+    display:flex;
+    flex-wrap: wrap;
+    background-image: url("../img/project-1.png");
+    min-width: 100px;
+    min-height: 100px;
+    background-repeat: no-repeat;
+  }
+
 
 
 .footer {
